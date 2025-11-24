@@ -11,7 +11,6 @@ def simulation_trois_des(nb_jets: int = 50):
         resultats.append((de1, de2, de3, somme))
     return resultats
 
-# Programme principal
 jets = simulation_trois_des(50)
 
 # Affichage des 10 premiers résultats pour vérifier
